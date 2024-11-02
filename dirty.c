@@ -10,9 +10,6 @@
 // To use this exploit modify the user values according to your needs.
 //   The default is "firefart".
 //
-// Original exploit (dirtycow's ptrace_pokedata "pokemon" method):
-//   https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c
-//
 // Compile with:
 //   gcc -pthread dirty.c -o dirty -lcrypt
 //
@@ -23,9 +20,6 @@
 //
 // DON'T FORGET TO RESTORE YOUR /etc/passwd AFTER RUNNING THE EXPLOIT!
 //   mv /tmp/passwd.bak /etc/passwd
-//
-// Exploit adopted by Christian "FireFart" Mehlmauer
-// https://firefart.at
 //
 
 #include <fcntl.h>
